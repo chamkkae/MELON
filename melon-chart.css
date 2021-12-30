@@ -1,0 +1,172 @@
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    width: fit-content;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+}
+
+.search-box {
+    width: 300px;
+    height: 25px;
+    border: 3px solid #00CD3C;
+    border-radius: 30px;
+    display: flex;
+    padding: 5px;
+    margin: 0 20px;
+}
+
+.search-box > input {
+    width: 240px;
+    height: 20px;
+    border: none;
+    margin: auto 12px;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+    color:transparent;
+}
+
+.search-box > img {
+    cursor: pointer;
+}
+
+.realtime {
+    width: 230px;
+    display: flex;
+}
+
+.realtime > div:first-child {
+    width: fit-content;
+    height: fit-content;
+    background-color: #00CD3C;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: x-small;
+    font-weight: bold;
+    padding: 2px 7px;
+}
+
+.realtime > div:last-child {
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.realtime > div:last-child > span:first-child {
+    color: #E55E96;
+    font-weight: bold;
+}
+
+.realtime > div:last-child > span:last-child {
+    color: #999999;
+    font-weight: bolder;
+    margin-left: 40px;
+}
+
+.button-list {
+    width: 730px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-bottom: 2px solid #B8B8B8;
+}
+
+.button-list > span {
+    color: #434343;
+    font-weight: bold;
+    padding: 10px 7px;
+    cursor: pointer;
+}
+
+.button-list > span:first-child {
+    border-bottom: 3px solid #00CD3C;
+}
+
+.button:hover, .button:active {
+    color: #0EBC30;
+}
+
+.ranking {
+    width: 730px;
+    margin: 0 auto;
+}
+
+.rank-header {
+    font-size: small;
+    border-bottom: 1px solid #B8B8B8;
+    display: flex;
+}
+
+.rank-header > span {
+    color: #606060;
+    padding: 15px;
+}
+
+.rank-header > span:nth-child(2) {
+    margin-left: 90px;
+}
+
+.rank-header > span:last-child {
+    margin-left: 215px;
+}
+
+.rank-song {
+    border-bottom: 1px solid #B8B8B8;
+    align-items: center;
+    display: flex;
+}
+
+.song-rank {
+    width: 70px;
+    color: #333333;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.rank-song > a > img {
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+}
+
+.song-box {
+    width: 100%;
+    display: flex;
+}
+
+.song-info {
+    flex: 1;
+}
+
+.song-info > a:last-child {
+    color: #969696;
+    font-size: small;
+    font-weight: lighter;
+}
+
+.song-album {
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.song-album > a {
+    color: #969696;
+    font-weight: lighter;
+}
