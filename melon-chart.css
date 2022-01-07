@@ -36,8 +36,7 @@ a:hover {
     margin: auto 12px;
 }
 
-input:focus::-webkit-input-placeholder,
-textarea:focus::-webkit-input-placeholder {
+input:focus::-webkit-input-placeholder {
     color:transparent;
 }
 
